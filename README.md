@@ -19,11 +19,11 @@ The design is modular — one unit per candidate — and can be replicated for m
 
 | Component | Part Number | Quantity | Purpose |
 |-----------|-------------|----------|---------|
-=> Decade Counter ( 74LS90) -> 1 per candidate -> Counts votes (0–9) 
-=> BCD to 7-Seg Decoder ( 74LS47 ) -> 1 per candidate -> Decodes count to display 
-=>7-Segment Display (7SEG-COM-ANODE) -> 1 per candidate -> Shows vote count 
-=> Push Button ( BUTTON ) -> 1 per candidate -> Vote input / clock trigger 
-=>Power Supply | VCC (+5V) ->  1 -> Powers all ICs 
+=> Decade Counter | 74LS90|  1 per candidate |Counts votes (0–9)| 
+=> BCD to 7-Seg Decoder |( 74LS47 ) |-> 1 per candidate| -> Decodes count to display |
+=>7-Segment Display (7SEG-COM-ANODE) |-> 1 per candidate| -> Shows vote count |
+=> Push Button ( BUTTON ) | 1 per candidate -| Vote input| clock trigger |
+=>Power Supply | VCC (+5V) |  1 -> Powers all ICs |
 => Ground | GND | Multiple | Common ground |
 
 ---
